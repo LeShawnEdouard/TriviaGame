@@ -4,20 +4,72 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
- 
-    
-
-
-
-
-
-
-
-<script src="main.js"></script>
+<div class="container">
+  <!-- Title of the game -->  
+  <div class="row">
+        <div class="col-sm-12">
+            <h1>Totally Trivia Trivia</h1>
+        </div>
+    </div>
+  
+    <!-- Game instructions -->
+    <div class="row">
+      <div class="col-sm-12">
+        <p>You will be given a random number.</p>
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Use the crystals below to match the random number given.</p>
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>If you match the number given you win. Otherwise, the world will be eradicated by the snap of my finger. Choose wisely!</p>
+      </div>  
+    </div>
+  
+    <!-- Random number that needs to be matched -->
+    <!-- Will display number of wins/losses by the player -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Number: <span id="random-number"></span></h1>
+      </div>
+      <div class="col-sm-12">
+        <h1>Wins:<span id="wins"></span></h1>
+        <h1>Losses:<span id="losses"></span></h1>
+      </div>
+    </div>  
+</div>
+  
+  <style>
+      body    {
+      background-image: url("http://mmjevents.com/wp-content/uploads/2012/01/90s-childhood-television-collage.jpg");
+      /* background-repeat: no-repeat;
+      background-position: top right;
+      background-size: cover;
+      height: 100%; */
+      }
+      p   {
+      color: blue;    
+      }
+      h1  {
+      color: blue;
+      }
+  </style>
+  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
 </body>
 </html>

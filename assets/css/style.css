@@ -1,3 +1,13 @@
-body {
+body    {
     background-image: url("http://mmjevents.com/wp-content/uploads/2012/01/90s-childhood-television-collage.jpg");
+    /* background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    height: 100%; */
+    }
+    p   {
+    color: blue;    
+    }
+    h1  {
+    color: blue;
 }

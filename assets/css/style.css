@@ -1,13 +1,15 @@
 body    {
-    background-image: url("http://mmjevents.com/wp-content/uploads/2012/01/90s-childhood-television-collage.jpg");
-    /* background-repeat: no-repeat;
-    background-position: top right;
-    background-size: cover;
-    height: 100%; */
-    }
-    p   {
+    background-image: url("http://media.juiceonline.com/wp-content/uploads/2018/01/03154146/635868367632231162-1357122560_paper-e1516606654579.jpg");
+}
+p   {
     color: blue;    
-    }
-    h1  {
+}
+h1  {
     color: blue;
+}
+.mb-3  {
+    background-color: rgb(247, 247, 10);
+}
+#title  {
+    color: red;
 }

@@ -3,7 +3,7 @@
 var questions = 
 [
     {
-    phrase: "Sugar, spice and everything nice",
+    phrase1: "Sugar, spice and everything nice",
     choices: ["Johnny Bravo", "I Am Weasel", "Powerpuff Girls", "Cow and Chicken"],
     answer: 2
     },
@@ -28,11 +28,18 @@ function setGame()  {
 }
 
 
-
 // Function to start the game //
 $(".btn").on("click", function () {
   // Function call to set the game //
   setGame();
+
+  // For loop to randomize the questions //
+  for (var i = 0; i < questions.length; i++) {
+    var questions = questions[i].question;
+    document.getElementById("#question");
+    var options = questions[i].choices;
+    document.getElementById("#question");
+  }
 
 
 

@@ -19,7 +19,6 @@ var questions =
     }
 ];
 
-
 // Function to set the game //
 function setGame()  {
   var correctAnswers = 0;
@@ -32,16 +31,13 @@ function setGame()  {
 $(".btn").on("click", function () {
   // Function call to set the game //
   setGame();
+  console.log(setGame);
 
-  // For loop to randomize the questions //
+  $(this).hide();
+
   for (var i = 0; i < questions.length; i++) {
-    var questions = questions[i].question;
-    document.getElementById("#question");
-    var options = questions[i].choices;
-    document.getElementById("#question");
+    
   }
-
-
 
 
 

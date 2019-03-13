@@ -31,7 +31,7 @@ function setGame()  {
 $(".btn").on("click", function () {
 
   for (var i = 0; i < questions.length; i++) {
-  var display = $("#question").text(questions.phrase[i]);
+  var display = $("#question").text(questions[i]);
 
   // ($(this).text(question.phrase),
   console.log(questions);
